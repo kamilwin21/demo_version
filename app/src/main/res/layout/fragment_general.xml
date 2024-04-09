@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main_activity_files.MyPets.PetDetailsActivityFiles.GeneralFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+<!--        android:layout_above="@+id/bottomNavStudiesListFragment"-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/removing_info_TW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textSize="35dp"
+                android:background="#8EC5AD"
+                android:text="@string/general"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                >
+<!--                android:scaleType="fitXY"-->
+
+<!--                android:layout_gravity="center"-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+
+                        android:id="@+id/imageViewGeneralFragmentBackground"
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:alpha="0.9"
+                        android:scaleType="matrix"
+                        android:layout_height="350dp">
+
+                    </ImageView>
+                    <ImageView
+                        android:id="@+id/imageViewGeneralFragment"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="360dp"
+                        android:maxHeight="400dp"
+                        />
+
+
+                </RelativeLayout>
+<!--                android:background= "#8EC5AD"-->
+
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/change_image"
+                android:layout_gravity="center"
+                android:layout_alignBottom="@id/imageViewGeneralFragment"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#8EC5AD"
+                android:text="Zmień zdjęcie"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:text="@string/name"
+                />
+            <TextView
+                android:id="@+id/animalName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:text="exampleName"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:text="@string/type"
+                />
+            <TextView
+                android:id="@+id/animalType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:text="exampleType"
+                />
+            <TextView
+                android:id="@+id/ageViewInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:text="@string/age"
+                />
+            <TextView
+                android:id="@+id/animalAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:text="exampleAge"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:text="@string/birthday"
+                />
+            <TextView
+                android:id="@+id/animalBirthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:text="@string/height"
+                />
+            <TextView
+                android:id="@+id/animalHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:text="exampleHeight"
+                />
+
+            <Button
+                android:layout_margin="10dp"
+                android:id="@+id/btn_edit_animal_general_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edytuj"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container_general_fragment"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<!--    android:layout_above="@+id/bottomNavStudiesListFragment"-->
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/bottomNavStudiesListFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:scrollIndicators="left"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:menu="@menu/editing_animal_menu" />-->
+
+
+</RelativeLayout>

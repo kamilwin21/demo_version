@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">AnimCare</string>
+
+    <string name="tematyczne">Tematyczne</string>
+    <string name="ogolne">Ogólne</string>
+    <string name="opcje">Opcje</string>
+    <string name="didatics">Dydaktyka</string>
+    <string name="quiz">Quiz</string>
+    <string name="disease_detection">Wykrywanie chorób</string>
+    <string name="clinic">Klinika</string>
+    <string name="save">Zapisz</string>
+    <string name="preview">Podgląd</string>
+
+    <string name="account">Konto</string>
+    <string name="help">Pomoc</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="origins">Pochodzenie</string>
+    <string name="lifetime">Długość życia</string>
+    <string name="weight">Waga</string>
+    <string name="height">Wysokość</string>
+
+    <!--Authorization-->
+    <string name="login">Logowanie</string>
+    <string name="registration">Rejestracja</string>
+    <!--Login-->
+    <string name="log_in">Zaloguj</string>
+    <string name="email">Email(example12@gmail.com)</string>
+    <string name="password">Hasło</string>
+    <string name="repeat_password">Powtórz hasło</string>
+    <!--Registration-->
+    <string name="register">Zarejestruj</string>
+    <string name="or">Lub</string>
+    <string name="return_to_login">Wróć do logowania</string>
+
+
+    <!-- Quiz Fragment -->
+    <string name="rozpocznij">Rozpocznij quiz</string>
+    <string name="info_o_quizie">Quizy w aplikacji mają na celu
+                wspierać oraz zwiększać wiedzę o wychowaniu zwierząt oraz uczyć
+                pozytywnych zachowań przy nich.
+    </string>
+    <string name="info_o_quizie_2">
+            Przed rozpoczęciem quizu, masz do wyboru poziom trudności oraz tematykę
+            zadawanych pytań. Quiz może być ogólny tematycznie oraz skierowany na konkretny gatunek.
+    </string>
+    <string name="types_of_quiz">Wybierz temat quizu:</string>
+    <string name="zatwierdz">Zatwierdź odpowiedź</string>
+
+
+    <string name="buttonTrue">Prawda</string>
+    <string name="buttonFalse">Fałsz</string>
+
+    <string name="gettedPoints">Zdobyte punkty</string>
+    <string name="pointForAllOfQuestion">Zestawienie punktów za wszystkie pytania</string>
+    <string name="pointsForSingleChoiceQuestion">Zestawienie punktów za pytania z jednokrotnym wyborem odpowiedzi</string>
+    <string name="pointsForMultipleChoiceQuestion">Zestawienie punktów za pytania z wielokrotnym wyborem odpowiedzi</string>
+    <string name="pointsForTrueOrFalseQuestion">Zestawienie punktów za pytania z typu prawda albo fałsz</string>
+
+
+    <!-- Moje zwierzaki Module -->
+    <string name="myPets">Moje zwierzaki</string>
+    <string name="add">Dodaj</string>
+    <string name="remove">Usuń</string>
+    <string name="put_values">Puste pola!</string>
+    <string name="add_pet">Dodaj Zwierzaka</string>
+    <string name="hold_to_remove">Przytrzymaj, żeby usunąć</string>
+    <string name="removing_elements_info">Usuwanie elementów</string>
+    <string name="removing_elements_info_description">Wybierz element, który chcesz usunąć przytrzymując ikonkę usuwania lub cały element</string>
+    <string name="my_pets">Moje zwierzaki</string>
+
+    <string name="toBack">Zamknij</string>
+    <string name="age">Wiek</string>
+    <string name="birthday">Urodziny</string>
+    <string name="heightPet">Wzrost</string>
+    <string name="name">Imię</string>
+    <string name="type">Gatunek</string>
+    <string name="general">Ogólne</string>
+
+    <string name="dog">Pies</string>
+    <string name="cat">Kot</string>
+    <string name="example">Przykład</string>
+
+    <string name="inYears">W latach</string>
+    <string name="inMonths">W miesiącach</string>
+    <string name="date_format">dd/mm/rrrr</string>
+
+    <!--Diagnosis for pet -->
+    <string name="name_diagnosis">Nazwa</string>
+    <string name="type_diagnosis">Typ</string>
+    <string name="date_diagnosis">Data</string>
+    <string name="description_diagnosis">Opis</string>
+    <string name="diagnosis_banner">Diagnozy</string>
+    <string name="diagnosis_detail">Diagnoza</string>
+
+    <string name="creating_diagnosis">Tworzenie badania</string>
+
+    <string-array name="types_diagnosis">
+        <item>Morfologia</item>
+        <item>Parametry nerkowe</item>
+        <item>Parametry wątrobowe</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>Wpisz jeśli nie ma twojego badania</item>
+
+    </string-array>
+
+
+    <!-- Colors for list of myPets -->
+    <string-array name="colorsOfBackground">
+        <item>#A6BFD3</item>
+        <item>#D59A7B</item>
+        <item>#6FA659</item>
+    </string-array>
+
+    <!-- UserOptions -->
+    <string name="logout">Wyloguj</string>
+    <string name="select_photo">Wybierz zdjęcie</string>
+
+</resources>

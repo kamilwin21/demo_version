@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/tematyczne">
+        <menu>
+            <item
+                android:id="@+id/firstOption"
+                android:title="@string/didatics"
+                />
+            <item
+                android:id="@+id/myPets"
+                android:title="@string/myPets"
+                />
+            <item
+                android:id="@+id/SecondOption"
+                android:title="@string/quiz"
+                />
+            <item
+                android:id="@+id/thirdOption"
+                android:title="@string/disease_detection"
+                />
+            <item
+                android:id="@+id/fourthOption"
+                android:title="@string/clinic"
+                />
+        </menu>
+
+
+    </item>
+    <item android:title="@string/ogolne">
+        <menu>
+            <item
+                android:title="@string/account"
+                />
+
+        </menu>
+
+    </item>
+
+    <item android:title="@string/opcje">
+        <menu>
+            <item
+                android:id="@+id/userOption"
+                android:title="@string/opcje"
+                />
+        </menu>
+
+    </item>
+</menu>

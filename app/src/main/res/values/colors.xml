@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#36AE7A</color>
+    <color name="purple_700">#25875C</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="custom">#E4E4E4</color>
+    <color name="custom1">#F1F1F1</color>
+    <color name="customGray">#AAA9A9</color>
+<!--    <color name="custom1">#959595</color>-->
+
+    <!-- Colors for list of myPets -->
+    <color name="customBlue">#A6BFD3</color>
+    <color name="customOrange">#D59A7B</color>
+    <color name="customGreen">#6FA659</color>
+
+    <string-array name="colors">
+        <item>#A6BFD3</item>
+        <item>#D59A7B</item>
+        <item>#6FA659</item>
+    </string-array>
+
+
+    <dimen name="textSize">20dp</dimen>
+</resources>

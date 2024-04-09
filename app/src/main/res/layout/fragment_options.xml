@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Options.OptionsFragment">
+
+    <TextView
+        android:id="@+id/options_tw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/opcje"
+        android:textSize="35dp" />
+
+
+    <TextView
+        android:id="@+id/change_profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#38812B"
+        android:textSize="20dp"
+        android:text="Zmień zdjęcie profilowe"
+        />
+
+    <TextView
+        android:id="@+id/logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:background="#EAE8E8"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#A33333"
+        android:text="@string/logout"
+
+        />
+
+
+</LinearLayout>

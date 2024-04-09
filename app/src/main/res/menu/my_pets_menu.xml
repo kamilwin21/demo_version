@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/addPet"
+        android:title="@string/add"
+        android:icon="@drawable/ic_baseline_add_24"
+        />
+    <item
+        android:id="@+id/removePet"
+        android:title="@string/remove"
+        android:icon="@drawable/ic_baseline_remove_circle_outline_24"
+        />
+    <item
+        android:id="@+id/returnRemovePet"
+        android:title="Powrót"
+        android:visible="false"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+
+        />
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".main_activity_files.Fragments.QuizFragmentFiles.QuizActivityFiles.MultipleChoiseFragment">
+
+    <ProgressBar
+        android:id="@+id/progressBarMultipleChoise"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:scaleY="25" />
+    <TextView
+        android:id="@+id/question"
+        android:background="#8EC5AD"
+        android:padding="15dp"
+        android:layout_marginBottom="40dp"
+        android:minHeight="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Przykładowa treść pytania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <CheckBox
+            android:id="@+id/answerCB1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:buttonTint="#8EC5AD"
+            android:text="Pierwsza opcja"
+            />
+        <CheckBox
+            android:id="@+id/answerCB2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#8EC5AD"
+            android:layout_marginBottom="10dp"
+            android:text="Druga opcja"
+            />
+        <CheckBox
+            android:id="@+id/answerCB3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#8EC5AD"
+            android:layout_marginBottom="10dp"
+            android:text="Trzecia opcja"
+            />
+        <CheckBox
+            android:id="@+id/answerCB4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#8EC5AD"
+            android:layout_marginBottom="10dp"
+            android:text="Czwarta opcja"
+            />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/zatwierdz"
+        />
+
+
+</LinearLayout>

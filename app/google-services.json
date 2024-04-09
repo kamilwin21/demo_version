@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "972535414369",
+    "project_id": "animcare-ea72d",
+    "storage_bucket": "animcare-ea72d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972535414369:android:8be61597856bf9b524b420",
+        "android_client_info": {
+          "package_name": "com.example.animcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972535414369-8uu8n5semndn4dh2v2hf32a5agf9n03f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtxN6p0jCB_D5McDyHMVXoELbNtn-uo7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972535414369-8uu8n5semndn4dh2v2hf32a5agf9n03f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".main_activity_files.MyPets.PetDetailsActivityFiles.EditingExistingFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/removing_info_editing_existing_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:textSize="35dp"
+                android:background="#8EC5AD"
+                android:text="@string/general"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:text="@string/name"
+                />
+
+            <EditText
+                android:id="@+id/animalName_editing_existing_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="exampleName"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:text="@string/type"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/animalType_editing_existing_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:hint="exampleType"
+                    android:textAlignment="center"
+                    android:textSize="20dp" />
+                <ImageView
+                    android:id="@+id/imageView_animal_type_editing_existing"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/ic_baseline_arrow_downward_24"
+                    />
+
+            </RelativeLayout>
+            <RadioGroup
+                android:id="@+id/radioGroup_editingExisitng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                >
+                <RadioButton
+                    android:id="@+id/checkbox_1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dog"
+                    />
+                <RadioButton
+                    android:id="@+id/checkbox_2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cat"
+                    />
+                <RadioButton
+                    android:id="@+id/checkbox_3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/example"
+                    />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/ageViewInfo_editing_existing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:text="@string/age"
+                />
+            <EditText
+                android:id="@+id/animalAge_editing_existing_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:hint="exampleAge"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:text="@string/birthday"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/animalBirthday_editing_existing_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:hint="@string/date_format"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:id="@+id/imageView_EditinExisting"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ic_baseline_arrow_downward_24"
+
+                    />
+            </RelativeLayout>
+
+
+            <CalendarView
+                android:id="@+id/calendar_editin_existing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:text="@string/height"
+                />
+            <EditText
+                android:id="@+id/animalHeight_editing_existing_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:hint="exampleHeight"
+                />
+            <Button
+                android:id="@+id/btn_save_new_detailes_editing_existing_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Zapisz"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
